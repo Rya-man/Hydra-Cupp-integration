@@ -13,7 +13,7 @@ ip = input("Enter IP to attack: ")
 wordlist = input("Enter the name of the wordlist just created: ")
 
 # Write the inputs to a file to pass to the Bash script
-with open("inpiut/inputs.txt", "w") as f:
+with open("input/inputs.txt", "w") as f:
     f.write(f"{username}\n")
     f.write(f"{ip}\n")
     f.write(f"{wordlist}\n")
