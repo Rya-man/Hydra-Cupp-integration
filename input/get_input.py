@@ -5,7 +5,7 @@ import os
 print("Welcome to our ssh password cracker that uses cupp and hydra to crack your ssh key password")
 
 # Run the cupp script
-os.system("python3 ../cupp/cupp.py -i")
+os.system("python3 cupp/cupp.py -i")
 
 # Get user inputs
 username = input("Enter username to attack: ")
